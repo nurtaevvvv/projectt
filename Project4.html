@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Order tickets</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="Project4.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"> 
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> 
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min .js"></script> 
+</head>
+<body>
+    <div class="container w">
+    	<div class="row">
+    		<div class="col-sm-4 b">
+    			<label>Choose your tour:</label>
+				   <select id="Tours">
+					 <option value="Astana">Nur-Sultan</option>
+					 <option value="Almaty">Almaty</option>
+					 <option value="Shymkent">Shymkent</option>
+					 <option value="Kostanay">Kostanay</option>
+					</select>
+    		</div>
+    		<div class="col-sm-4 b">
+    			<label >Choose a place</label>
+    			     <select id="Tours">
+					 <option value="Austria">Austria</option>
+					 <option value="Hungary">Hungary</option>
+					 <option value="UAE">UAE</option>
+					 <option value="Turkey">Turkey</option>
+					</select>
+    		</div>
+    		<div class="col-sm-4 b">
+    			<label>Any resort</label>
+    			     <select id="Resort">
+					 <option value="Bangkok">Bangkok</option>
+					 <option value="Pattaya">Pattaya</option>
+					 <option value="Rayong">Rayong</option>
+					 <option value="Rayong">Rayong</option>
+					</select>
+    		</div>
+    	</div>
+    	<div class="row">
+    		<div class="col-sm-4 s"> 
+    			<p> <b>Departure Period </b></p> 
+    			<br><br>
+    		</div>
+    		<div class="col-sm-4 s"> 
+    			<label >Data</label>
+    			     <select id="Data">
+					 <option value="Data">24.04.2020</option>
+					 <option value="Data">14.03.2019</option>
+					 <option value="Data">10.12.2018</option>
+					 <option value="Data">17.07.2009</option>
+					 <option value="Data">4.04.2012</option>					 
+					</select>
+    		</div>
+    		<div class="col-sm-4 s"> 
+    			<label>Days of the week</label>
+    			     <select id="Data">
+					 <option value="Data">Wednesday</option>
+					 <option value="Data">Monday</option>
+					 <option value="Data">Friday</option>
+					 <option value="Data">Sunday</option>
+					 <option value="Data">Thursay</option>					 
+					</select>  
+    		</div>
+    	</div>
+    	<div class="row">
+    		<div class="col-sm-6 b">
+    			<p><b>Hotel Category: </b></p>
+    		<form>
+			  <input type="checkbox" id="vehicle1" name="vehicle1" value="Hotel">
+			  <label for="vehicle1"> 2 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTBBI9JYth_ZULv4F1WNI1uqeZDjxtdlYRBN2pqYPKs4eUaPJv8" width="15px" height="15px"></label><br>
+			  <input type="checkbox" id="vehicle2" name="vehicle2" value="Hotel">
+			  <label for="vehicle2"> 3 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTBBI9JYth_ZULv4F1WNI1uqeZDjxtdlYRBN2pqYPKs4eUaPJv8" width="15px" height=" 15px"></label><br>
+			  <input type="checkbox" id="vehicle3" name="vehicle3" value="Hotel">
+			  <label for="vehicle3"> 4 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTBBI9JYth_ZULv4F1WNI1uqeZDjxtdlYRBN2pqYPKs4eUaPJv8" width="15px" height=" 15px"></label><br>
+			  <input type="checkbox" id="vehicle3" name="vehicle3" value="Hotel">
+			  <label for="vehicle3"> 5 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTBBI9JYth_ZULv4F1WNI1uqeZDjxtdlYRBN2pqYPKs4eUaPJv8" width="15px" height=" 15px"></label><br>
+			</form>
+    		</div>
+    		<div class="col-sm-6 b">
+    			<p><b> Rating topHotel: </b></p>
+    		<form>
+			  <input type="radio" id="vehicle1" name="vehicle1" value="Hotel">
+			  <label for="vehicle1"> 3.0</label><br>
+			  <input type="radio" id="vehicle2" name="vehicle1"  value="Hotel">
+			  <label for="vehicle2"> 3.5</label><br>
+			  <input type="radio" id="vehicle3" name="vehicle3" value="Hotel">
+			  <label for="vehicle3"> 4.25</label><br>
+			  <input type="radio" id="vehicle3" name="vehicle3" value="Hotel">
+			  <label for="vehicle3"> 4.75</label><br>
+			</form>
+    		</div>
+    	</div>
+    	<div class="row">
+    		<div class="col-sm-6 s">
+    				<label>Choose hotel</label>
+    			     <select id="hotel">
+    			     <option value="hotel"> Any hotel</option>
+					 <option value="hotel"> 7Q Bangla hotel</option>
+					 <option value="hotel">Rixos</option>
+					 <option value="hotel">Hilton</option>
+					 <option value="hotel"> A-One New Wing hotel</option>
+					 <option value="hotel">Nova Platinum*</option>					 
+					</select>  
+					<br>
+    		</div>	
+    		<div class="col-sm-6 s">
+    			<p style="color: red"> Found 438 hotel </p>
+    		</div>
+    	</div>
+    	<div class="row">
+    		<div class="col-sm-4 b">
+    				<label>Type of number</label>
+    			     <select id="hotel">
+    			     <option value="hotel"> Room</option>
+					 <option value="hotel"> Suite </option>
+					 <option value="hotel"> Apartment</option>
+					 <option value="hotel"> Residense</option>				 
+					</select>
+    		</div>
+    		<div class="col-sm-4 b">
+    			<label>Adults</label>
+    			     <select id="hotel">
+    			     <option value="hotel"> 1</option>
+					 <option value="hotel"> 2 </option>
+					 <option value="hotel"> 3</option>
+					 <option value="hotel"> 4</option>	
+					 <option value="hotel"> 4+</option>			 
+					</select>
+    		</div>
+    		<div class="col-sm-4 b">
+    			<label>Children</label>
+    			     <select id="hotel">
+    			     <option value="hotel"> 0</option>
+    			     <option value="hotel"> 1</option>
+					 <option value="hotel"> 2 </option>
+					 <option value="hotel"> 3</option>
+					 <option value="hotel"> 4</option>	
+					 <option value="hotel"> 4+</option>			 
+					</select>
+    		</div>
+    	</div>
+    	<div class="row">
+    		<div class="col-sm-6 b">
+    			<label>View from the room</label>
+    			     <select id="hotel">
+    			     <option value="hotel"> Any kind</option>
+    			     <option value="hotel"> Nature view from the room</option>
+					 <option value="hotel"> Sea view from the room </option>
+					 <option value="hotel"> Pool view from the room</option>
+					 <option value="hotel"> Special view from the room</option>	
+					 <option value="hotel"> View of the room from the pond</option>			 
+					</select>
+    		</div>
+    		<div class="col-sm-6 b">
+    				<label>Type of food</label>
+    			     <select id="hotel">
+    			     <option value="hotel"> Without food</option>
+    			     <option value="hotel"> Breakfast</option>
+					 <option value="hotel"> Breakfast + dinner </option>
+					 <option value="hotel"> Breakfast + lunch +  dinner</option>
+					 <option value="hotel"> All included</option>	
+					</select>
+    		</div>
+    	</div>
+    	<div class="row">
+    		<div class="col-sm-4 s">
+    			     <select id="hotel">
+    			     <option value="hotel"> With ticket</option>
+    			     <option value="hotel"> No ticket</option>
+					 <option value="hotel"> No matter</option>
+					 <option value="hotel"> Air</option>
+					 <option value="hotel">  A train</option>	
+					</select>
+    		</div>
+    		<div class="col-sm-4 s">
+			  <p><b>Price up: </b>  <input type="text" name="textfield">  </p>
+    		</div>
+    		<div class="col-sm-4 s">
+				   <p><input type="button" class="b1" value="Order tickets"></p>
+    		</div>
+    	</div>
+    </div>
+    
+</body>
+</html>
